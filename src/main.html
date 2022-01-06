@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Architects+Daughter">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>SAVING YOUR NOTES</title>
+</head>
+<body>
+    <div class="title"><h1 style="">....WELCOME TO SAVING NOTES....</h1></div>
+    <br>
+    <div class="subtitle"><p>Greetings! Hello to you. Welcome to our <b>"SAVING YOUR NOTES"</b>. Hope that you are fine during pandemic COVID-19. As you know this website is made to save your notes. All you need to do is just read "HOW TO CREATE NOTES" <b>below</b>. Easy right? Feel free to put your note here. All the best to you!</p>
+    <h5>~Regards From designers: AINA and AQILAH~</h5> </div>
+    <div class="method">
+        <h5 style="text-align: center;"><u><b>HOW TO CREATE NOTES</b></u>  </h5>
+        <br>
+        <p>1. Double click on this button "<b>CREATE NOTES</b>" to popup text area.</p>
+        <p>2. After the text area pop out, <b>WRITE your notes</b>  on that area.</p>
+        <p>3. Then click "<b>Save</b>" button to display your notes.</p>
+        <p>4. Click "<b>X</b>" to exit the text area.</p>
+        <p>5. After that, the page will <b>navigate</b> to other page that <b>store</b> your notes.</p>
+        <p>6. Then, this message will appear <b>YOUR NOTE IS SAVED</b> at new page.</p>
+        <p>7. If you wish to "<b>DELETE</b>" your post, just "<b>insert ID</b>" beside your notes on.</p>
+        <p>8. Then, click <b>DELETE</b> button.</p>
+        <p>9. FYI, the new page will <b>refresh</b>  after 15 second and back to home page.</p>
+        <p>10. Then your your post has "<b>DELETED</b>"</p>
+        <p>11. Finally you are <b>DONE</b> creating your notes.</p>
+        <p style="text-align: center;"><b>WELL DONE !</b></p>
+    </div>
+    <div class="main">
+        <div class="box1">
+            <button class="btn btn-success" onclick="typeNote()">CREATE NOTES</button>
+        </div>
+        <div class="box2"></div>
+        <div class="box3">
+            <form id="note", action="store.php", method="post">
+                <input type ="hidden" name="id">
+                <div>
+                <textarea id="textnote" name="textnote" placeholder="write your note here..." maxlength="100" ></textarea>
+                </div>
+               <input type="submit" name="save" value="Save"/>
+                
+                <svg id="xicon"  width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                    <path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+            </form>
+        </div>
+    </div>
+    </div>
+    <br>
+   <footer>
+       <p class="footer">Designed by AINA SYARAFINA BINTI ROSLAN (148450) & AQILAH SYAZANI BINTI NOORAZIZ (146410)</p>
+   </footer>
+    <script src="script.js"></script>
+</body>
+</html>
