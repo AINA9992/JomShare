@@ -1,0 +1,114 @@
+
+body {
+    background-color: paleturquoise;
+    font-family: "Architects Daughter";
+    font-size: 24px;
+    background: url(https://i.pinimg.com/736x/fd/00/98/fd00984025b813f8da694ca720b39111.jpg);
+    background-size: 100% 100%;
+    padding: 50px 50px;
+}
+
+.title{
+    background: linear-gradient(-50deg, pink,salmon,orchid);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid orchid;
+}
+
+.subtitle{
+    font-family: cursive;
+    font-size: medium;
+    background-color: wheat;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+h5{
+    text-align: end;
+}
+
+.method{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 630px;
+    height: 600px;
+    text-indent: 5%;
+    font-size: medium;
+    background-color: mediumspringgreen;
+    margin: 0px auto;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 5px dashed steelblue;
+}
+
+.main{
+    width: 95%;
+    margin: auto;
+}
+
+.box1{
+    margin-left: 5%;
+}
+
+.box2{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.box3{
+    display: none;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+}
+
+textarea{
+    box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+    outline: none;
+    border: none;
+    width: 275px;
+    height: 275px;
+    padding: 40px 25px 25px 25px;
+}
+
+svg{
+    color: grey;
+}
+
+input[type=submit]{
+    box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+	background:#ee0000;
+	border:1px solid #ee0000;
+	color:#ffffff;
+	height:30px;
+	display:block;
+	margin:10px 0px;
+}
+ 
+input[type=submit]:hover{
+    box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+	background:#ff5858;
+	border:1px solid #ff5858;
+	cursor:pointer;
+}
+#xicon{
+    position: absolute;
+    right: 5%;
+    top: 4%;
+}
+
+footer{
+    text-align: center;
+    color: navy;
+    margin: 10px;
+    padding: 10px;
+    height: 80px;
+    background: linear-gradient(-45deg, papayawhip, violet, moccasin);
+    
+}
+
