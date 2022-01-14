@@ -79,13 +79,14 @@
 
 .expiredDate
 {
-    margin-top: 90px;
-    margin-left: 10px;
+    margin-top: 120px;
+    margin-left: 15px;
     position:absolute;
     top:20px;
     left:0;
-    height: 30px;
+    height: 70px;
     width: 26%;
     background-color: rgb(255, 255, 255);
     z-index: 1;
 }
+
