@@ -17,10 +17,10 @@
     border: 2px solid #4CAF50;
   }
   
-  .button1:hover {
+  /* .button1:hover {
     background-color: #4CAF50;
     color: white;
-  }
+  } */
   
   .button2 {
     background-color: white;
@@ -28,7 +28,15 @@
     border: 2px solid #008CBA;
   }
   
-  .button2:hover {
+  /* .button2:hover {
     background-color: #008CBA;
     color: white;
-  }
+  } */
+
+.button1:hover span{
+    width:100%;
+}
+.button1:hover{
+    color: #000;
+    /* background:#FBD3E9; */
+}
