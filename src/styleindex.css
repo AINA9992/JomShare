@@ -156,6 +156,7 @@
     width: 25%;
     background-color: rgb(255, 255, 255);
     z-index: 1;
+    border-radius: 15px;
 }
 
 .distance
@@ -169,6 +170,7 @@
     width: 100%;
     background-color: rgb(255, 255, 255);
     z-index: 1;
+    border-radius: 15px;
 }
 
 .location
@@ -182,6 +184,7 @@
     width: 100%;
     background-color: rgb(255, 255, 255);
     z-index: 1;
+    border-radius: 15px;
 }
 
 /* aisyah */
