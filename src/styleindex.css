@@ -93,8 +93,9 @@
     left:0;
     height: 70px;
     width: 25%;
-    background-color: rgb(255, 255, 255);
+    background-color: #F5CAC3;
     z-index: 1;
+    border-radius: 15px;
 }
 
 .currentLot
@@ -106,8 +107,9 @@
     left:0;
     height: 70px;
     width: 25%;
-    background-color: rgb(255, 255, 255);
+    background-color: #F7EDE2;
     z-index: 1;
+    border-radius: 15px;
 }
 
 .categories
@@ -119,8 +121,9 @@
     left:0;
     height: 200px;
     width: 25%;
-    background-color: rgb(255, 255, 255);
+    background-color: #F7EDE2;
     z-index: 1;
+    border-radius: 15px;
 }
 /* aina jinnie */
 
