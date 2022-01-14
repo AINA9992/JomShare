@@ -107,7 +107,7 @@
     left:0;
     height: 70px;
     width: 25%;
-    background-color: #F7EDE2;
+    background-color: #F5CAC3;
     z-index: 1;
     border-radius: 15px;
 }
@@ -121,7 +121,7 @@
     left:0;
     height: 200px;
     width: 25%;
-    background-color: #4A0908;
+    background-color: #F5CAC3;
     z-index: 1;
     border-radius: 15px;
 }
@@ -135,10 +135,23 @@
     position:absolute;
     top:20px;
     right:0;
-    height: 700px;
-    width: 70%;
+    height: 500px;
+    width: 67%;
     border-radius: 15px;
     background-color: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+.post
+{
+    height: 30px;
+    width: 70%;
+    background-color: rgb(60, 209, 23);
+    margin-top: 80px;
+    margin-right: 12px;
+    position:absolute;
+    top:0;
+    right:0;
     z-index: 1;
 }
 /* aqi */
