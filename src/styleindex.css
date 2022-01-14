@@ -148,6 +148,19 @@ padding-top: 180px;
     background-color: rgb(255, 255, 255);
     z-index: 1;
 }
+
+.post
+{
+    height: 30px;
+    width: 70%;
+    background-color: rgb(60, 209, 23);
+    margin-top: 80px;
+    margin-right: 12px;
+    position:absolute;
+    top:0;
+    right:0;
+    z-index: 1;
+}
 /* aqi */
 
 /* aisyah */
@@ -161,35 +174,35 @@ padding-top: 180px;
     left:0;
     height: 70px;
     width: 25%;
-    background-color: rgb(255, 255, 255);
+    background-color: #fdfcdc;
     z-index: 1;
     border-radius: 15px;
 }
 
 .distance
 {
-    margin-top: 80px;
-    margin-left: 2px;
+    margin-top: 220px;
+    margin-left: 15px;
     position:absolute;
     top:20px;
     left:0;
-    height: 90px;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
+    height: 70px;
+    width: 25%;
+    background-color: #fdfcdc;
     z-index: 1;
     border-radius: 15px;
 }
 
 .location
 {
-    margin-top: 100px;
-    margin-left: 2px;
+    margin-top: 320px;
+    margin-left: 15px;
     position:absolute;
     top:20px;
     left:0;
     height: 200px;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
+    width: 25%;
+    background-color: #fdfcdc;
     z-index: 1;
     border-radius: 15px;
 }
