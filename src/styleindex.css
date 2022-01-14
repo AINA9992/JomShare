@@ -19,7 +19,6 @@ padding-top: 180px;
 }
 
 .banner-btn{
-    /* margin: 70px auto 0; */
     margin-top: 12px;
     margin-right: 2px;
     position:absolute;
@@ -33,7 +32,7 @@ padding-top: 180px;
     display: inline-block;
     margin: 0 10px;
     padding: 12px 0;
-    color: black;
+    color: rgb(0, 0, 0);
     border: .5px solid #fff;
     position: relative;
     z-index: 1;
@@ -46,7 +45,7 @@ padding-top: 180px;
     top: 0;
     left: 0;
     position: absolute;
-    background: #fff;
+    background: #F6BD60;
     z-index: -1;
     transition: 0.5s;
 }
@@ -60,6 +59,18 @@ padding-top: 180px;
     background:#FBD3E9;
 } 
 
+.big {
+    top: 0;
+    right: 0;
+    height: 49px;
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 12px;
+    margin-right: 12px;
+    position:absolute;
+    z-index: 0;
+  }
+
 .rectangle {
     height: 30px;
     width: 70%;
@@ -72,19 +83,14 @@ padding-top: 180px;
     z-index: 1;
   }
 
-  /* .leftpart{
-    width: 25%;
-} */
-
 .logo
-{
-    height: 100%;
-    margin-top: 12px;
-    margin-left: 12px; 
+{ 
+    margin-top: 15px;
+    margin-left: 21px;
     position:absolute;
-    top: 13px;
-    left: 45px;
-    /* position: center; */
+    top:0;
+    left:0;
+    z-index: 1;
 }
 
 /* zakirah */
