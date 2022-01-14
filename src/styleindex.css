@@ -6,7 +6,7 @@
 }
 
 #banner{
-    background-color: #F28482;
+    background-color: #264653;
     background-size: cover;
     background-position: center;
     height:100vh;
@@ -43,7 +43,7 @@
     top: 0;
     left: 0;
     position: absolute;
-    background: #fff;
+    background: #F6BD60;
     z-index: -1;
     transition: 0.5s;
 }
@@ -121,7 +121,7 @@
     left:0;
     height: 200px;
     width: 25%;
-    background-color: #F7EDE2;
+    background-color: #4A0908;
     z-index: 1;
     border-radius: 15px;
 }
