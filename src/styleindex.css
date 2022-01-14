@@ -179,7 +179,7 @@
     position:absolute;
     top:20px;
     left:0;
-    height: 90px;
+    height: 70px;
     width: 25%;
     background-color: #fdfcdc;
     z-index: 1;
@@ -188,7 +188,7 @@
 
 .location
 {
-    margin-top: 330px;
+    margin-top: 320px;
     margin-left: 15px;
     position:absolute;
     top:20px;
