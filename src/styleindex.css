@@ -68,13 +68,12 @@
 
 .logo
 {
-    height: 70%;
+    height: 100%;
     margin-top: 12px;
     margin-left: 12px;
     position:absolute;
-    top:0;
-    left:0;
-    /* width: 100%; */
+    top: 13px;
+    left: 45px;
 }
 
 .expiredDate
