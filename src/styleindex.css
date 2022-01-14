@@ -56,7 +56,7 @@
 
 .rectangle {
     height: 30px;
-    width: 75%;
+    width: 70%;
     background-color: rgb(255, 255, 255);
     margin-top: 80px;
     margin-right: 12px;
@@ -75,4 +75,17 @@
     top: 7px;
     left: 10px;
     /* width: 100%; */
+}
+
+.expiredDate
+{
+    margin-top: 90px;
+    margin-left: 10px;
+    position:absolute;
+    top:20px;
+    left:0;
+    height: 30px;
+    width: 26%;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
 }
