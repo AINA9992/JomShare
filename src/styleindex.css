@@ -68,7 +68,12 @@
 
 .logo
 {
-    height: 10px;
+    height: 70%;
+    margin-top: 12px;
+    margin-left: 12px;
+    position:absolute;
+    top:0;
+    left:0;
     /* width: 100%; */
 }
 
