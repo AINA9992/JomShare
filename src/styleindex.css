@@ -97,13 +97,26 @@
 
 .currentLot
 {
-    margin-top: 80px;
-    margin-left: 2px;
+    margin-top: 220px;
+    margin-left: 15px;
     position:absolute;
     top:20px;
     left:0;
-    height: 90px;
-    width: 100%;
+    height: 70px;
+    width: 25%;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+.categories
+{
+    margin-top: 320px;
+    margin-left: 15px;
+    position:absolute;
+    top:20px;
+    left:0;
+    height: 70px;
+    width: 25%;
     background-color: rgb(255, 255, 255);
     z-index: 1;
 }
