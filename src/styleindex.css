@@ -45,7 +45,7 @@ padding-top: 180px;
     top: 0;
     left: 0;
     position: absolute;
-    background: #F6BD60;
+    background: #FBD3E9 ;
     z-index: -1;
     transition: 0.5s;
 }
@@ -56,7 +56,7 @@ padding-top: 180px;
 
 .banner-btn a:hover{
     /* color: #000; */
-    background:#FBD3E9;
+    background:#fffffe;
 } 
 
 .big {
@@ -64,12 +64,22 @@ padding-top: 180px;
     right: 0;
     height: 49px;
     width: 150px;
-    background-color: rgb(255, 255, 255);
+    background-color: #F6BD60;
     margin-top: 12px;
     margin-right: 12px;
     position:absolute;
     z-index: 0;
   }
+
+.logo
+{ 
+    margin-top: 15px;
+    margin-left: 21px;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: 1;
+}
 
 .rectangle {
     height: 30px;
@@ -83,13 +93,18 @@ padding-top: 180px;
     z-index: 1;
   }
 
-.logo
-{ 
-    margin-top: 15px;
-    margin-left: 21px;
+.rectangle p{
+    margin-top: 2px;
+    text-align: left;
+}
+
+.shortd{
+    text-align: 20%;
+    margin-top: 12px;
+    margin-right: 12px;
     position:absolute;
     top:0;
-    left:0;
+    right:0;
     z-index: 1;
 }
 
