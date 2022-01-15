@@ -13,27 +13,50 @@
 
     <body>
         <!-- Zakirah -->
-        
+        <script src="script.js"></script>
         <section id="banner">
-                <div class="logo">
-                    <img src="img/1.png" style="width:24%">
-                </div>
+            <div class="logo">
+                <img src="img/1.png" style="width:24%">
+            </div>
+
             <div class="banner-text">
                 <div class="banner-btn">
                     <!-- <a href="index.html?"><span></span>Back</a> -->
                     <a href="beDonor.html?"><span></span>Be a Donor!</a>
                 </div>
-                <div class="big"></div>
 
                 <div class="rectangle">
-                    <!-- <p><b>&nbsp; SORT BY:</b>&emsp;&emsp;Shortest Distance&emsp;&emsp;Shortest Time&emsp;&emsp;Newly Posted</p> -->
-                    <p><b>&nbsp; SORT BY:</b></p>
-                    <div class="shortestdistance">
-                        <p>&nbsp; Shortest Distance</p>
+                    <form action="index.html">
+                        <p><b>&nbsp; SORT BY:</b>
+                            <input type="radio" id="sort1" name="sort" value="30">
+                                <label for="sort1">&nbsp; Shortest Distance</label>
+                            <input type="radio" id="sort2" name="sort" value="60">
+                                <label for="sort2">&nbsp; Shortest Time</label>  
+                            <input type="radio" id="sort3" name="sort" value="100">
+                                <label for="sort3">&nbsp; Newly Posted</label>
+
+                            <input type="submit" value="Go" class="submitbutton"></p>
+                    </form>
+                </div>
+            </div>
+
+            <div class="listfood">
+                <div class="foodphoto">
+                    <img src="img/1.png" height="140px" width="100%">
+                </div>
+                <div class="food">
+                    <p><h3><b>&nbsp;TITLE</b></h3></p>
+                    <div class="a">
+                        <h10><i>1 day ago</i></h10>
+                    </div>
+                    
+                    <!-- <h6><b>(63 Kilometers)</b></h6> -->
+                    
+                    <div class="detmapbutton">
+                        <a href="beDonor.html?"><span></span>Details</a>
+                        <a href="beDonor.html?"><span></span>Location</a>
                     </div>
                 </div>
-
-                 
             </div>
         
         
