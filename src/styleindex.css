@@ -110,7 +110,8 @@ padding-top: 180px;
 }
 
 .listfood{
-    height: 445px;
+    /* height: 445px; */
+    height: 70%;
     width: 67%;
     background-color: rgb(255, 255, 255);
     margin-top: 135px;
@@ -214,11 +215,11 @@ h6{
 }
 
 .bottombutton{
-    height: 40px;
+    height: 30px;
     width: 70%;
     /* background-color: rgb(150, 23, 23); */
     position:absolute;
-    bottom: 20px;;
+    bottom: 8px;;
     right:0;
     z-index: 1;
     display: flex;
@@ -232,7 +233,7 @@ h6{
 	border: none;
 	color: white;
 	padding: 12px 16px;
-	font-size: 30px;
+	font-size: 25px;
 	cursor: pointer;
 	/* margin-left: 5px; */
     /* bottom: 0; */
@@ -249,7 +250,7 @@ h6{
 	border: none;
 	color: rgb(255, 249, 249);
 	padding: 1px 16px;
-	font-size: 25px;
+	font-size: 20px;
 	cursor: pointer;
 	/* margin-left: 5px; */
     /* bottom: 0; */
@@ -306,64 +307,6 @@ h6{
     border-radius: 15px;
 }
 
-/* Popup box BEGIN */
-.hover_bkgr_fricc{
-    background:rgba(0,0,0,.4);
-    cursor:pointer;
-    display:none;
-    height:100%;
-    position:fixed;
-    text-align:center;
-    top:0;
-    width:100%;
-    z-index:10000;
-}
-.hover_bkgr_fricc .helper{
-    display:inline-block;
-    height:100%;
-    vertical-align:middle;
-}
-.hover_bkgr_fricc > div {
-    background-color: #fff;
-    box-shadow: 10px 10px 60px #555;
-    display: inline-block;
-    height: auto;
-    max-width: 551px;
-    min-height: 100px;
-    vertical-align: middle;
-    width: 60%;
-    position: relative;
-    border-radius: 8px;
-    padding: 15px 5%;
-}
-.popupCloseButton {
-    background-color: #fff;
-    border: 3px solid #999;
-    border-radius: 50px;
-    cursor: pointer;
-    display: inline-block;
-    font-family: arial;
-    font-weight: bold;
-    position: absolute;
-    top: -20px;
-    right: -20px;
-    font-size: 25px;
-    line-height: 30px;
-    width: 30px;
-    height: 30px;
-    text-align: center;
-}
-.popupCloseButton:hover {
-    background-color: #ccc;
-}
-.trigger_popup_fricc {
-    cursor: pointer;
-    font-size: 20px;
-    margin: 20px;
-    display: inline-block;
-    font-weight: bold;
-}
-/* Popup box BEGIN */
 /* aina jinnie */
 
 /* aqi */
@@ -440,3 +383,61 @@ h6{
 }
 
 /* aisyah */
+
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* The actual popup */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+    left: 0;
+    margin-left: 0;
+    
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class - hide and show the popup */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
