@@ -215,11 +215,11 @@ h6{
 }
 
 .bottombutton{
-    height: 40px;
+    height: 30px;
     width: 70%;
     /* background-color: rgb(150, 23, 23); */
     position:absolute;
-    bottom: 20px;;
+    bottom: 8px;;
     right:0;
     z-index: 1;
     display: flex;
@@ -233,7 +233,7 @@ h6{
 	border: none;
 	color: white;
 	padding: 12px 16px;
-	font-size: 30px;
+	font-size: 25px;
 	cursor: pointer;
 	/* margin-left: 5px; */
     /* bottom: 0; */
@@ -250,7 +250,7 @@ h6{
 	border: none;
 	color: rgb(255, 249, 249);
 	padding: 1px 16px;
-	font-size: 25px;
+	font-size: 20px;
 	cursor: pointer;
 	/* margin-left: 5px; */
     /* bottom: 0; */
