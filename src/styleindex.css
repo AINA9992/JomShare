@@ -110,7 +110,8 @@ padding-top: 180px;
 }
 
 .listfood{
-    height: 445px;
+    /* height: 445px; */
+    height: 70%;
     width: 67%;
     background-color: rgb(255, 255, 255);
     margin-top: 135px;
