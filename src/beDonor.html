@@ -28,18 +28,17 @@
             </div>
         
         <div class="descript">
-                <p><b>ADD PHOTO:</b></p>
-        
-                <p><b>AMOUNT:</b></p>
-
-                <p><b>DESCRIPTION:</b></p>
-        
-                <p><b>CONTACT:</b></p>
-
-                <div class="post">
-                    <a href="index.html?"><span></span>POST</a>
-                </div>
-                
+            <form action="/foodPost.php" method="get">
+                <label for="photo">Add photo here:</label>
+                <input type="image" id="photo" name="photo"><br><br>
+                <label for="amount">Amount of food:</label>
+                <input type="text" id="amount" name="amount"><br><br>
+                <label for="description">Description:</label>
+                <input type="text" id="description" name="description"><br><br>
+                <label for="contact">Contact (telephone number/email):</label>
+                <input type="text" id="contact" name="contact"><br><br>
+                <input type="submit" value="Post">
+              </form>
         </div>
         
          <!-- Aina -->
@@ -54,6 +53,21 @@
 
         <div class="categories">
             <p><b>&nbsp; CATEGORIES:</b></p>
+                <!-- <form action="/action_page.php"> -->
+                <input type="checkbox" id="food1" name="food1" value="Halal">
+                <label for="food1"> Halal</label><br>
+                <input type="checkbox" id="food2" name="food2" value="Vegetarian">
+                <label for="food2"> Vegetarian</label><br>
+                <input type="checkbox" id="food3" name="food3" value="Vegan">
+                <label for="food3"> Vegan</label><br>
+                <input type="checkbox" id="food4" name="food4" value="Canned">
+                <label for="food4"> Canned</label><br>
+                <input type="checkbox" id="food5" name="food5" value="Dry">
+                <label for="food5"> Dry</label><br>
+                <input type="checkbox" id="food6" name="food6" value="Raw">
+                <label for="food6"> Raw</label><br><br>
+                <!-- <input type="submit" value="Submit"> -->
+                </form>
         </div>
 
         
