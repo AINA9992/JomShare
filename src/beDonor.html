@@ -28,18 +28,17 @@
             </div>
         
         <div class="descript">
-                <p><b>ADD PHOTO:</b></p>
-        
-                <p><b>AMOUNT:</b></p>
-
-                <p><b>DESCRIPTION:</b></p>
-        
-                <p><b>CONTACT:</b></p>
-
-                <div class="post">
-                    <a href="index.html?"><span></span>POST</a>
-                </div>
-                
+            <form action="/foodPost.php" method="get">
+                <label for="photo">Add photo here:</label>
+                <input type="image" id="photo" name="photo"><br><br>
+                <label for="amount">Amount of food:</label>
+                <input type="text" id="amount" name="amount"><br><br>
+                <label for="description">Description:</label>
+                <input type="text" id="description" name="description"><br><br>
+                <label for="contact">Contact (telephone number/email):</label>
+                <input type="text" id="contact" name="contact"><br><br>
+                <input type="submit" value="Post">
+              </form>
         </div>
         
          <!-- Aina -->
