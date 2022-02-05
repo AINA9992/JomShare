@@ -6,7 +6,7 @@
 }
 
 #banner{
-    background-color: #264653;
+    background-color: #D0AAE8;
     background-size: cover;
     background-position: center;
     height:100vh;
@@ -250,7 +250,7 @@ h6{
     left:0;
     height: 70px;
     width: 25%;
-    background-color: #F5CAC3;
+    background-color: #F6E8FF;
     z-index: 1;
     border-radius: 15px;
 }
@@ -264,7 +264,7 @@ h6{
     left:0;
     height: 70px;
     width: 25%;
-    background-color: #F5CAC3;
+    background-color: #F6E8FF;
     z-index: 1;
     border-radius: 15px;
 }
@@ -278,7 +278,7 @@ h6{
     left:0;
     height: 250px;
     width: 25%;
-    background-color: #F5CAC3;
+    background-color: #F6E8FF;
     z-index: 1;
     border-radius: 15px;
 }
@@ -325,7 +325,7 @@ h6{
     left:0;
     height: 70px;
     width: 25%;
-    background-color: #fdfcdc;
+    background-color: #F6E8FF;
     /* z-index: 1; */
     border-radius: 15px;
 }
@@ -339,7 +339,7 @@ h6{
     left:0;
     height: 70px;
     width: 25%;
-    background-color: #fdfcdc;
+    background-color: #F6E8FF;
     /* z-index: 1; */
     border-radius: 15px;
 }
@@ -353,7 +353,7 @@ h6{
     left:0;
     height: 200px;
     width: 25%;
-    background-color: #fdfcdc;
+    background-color: #F6E8FF;
     /* z-index: 1; */
     border-radius: 15px;
 }
