@@ -248,7 +248,7 @@ h6{
     position:absolute;
     top:20px;
     left:0;
-    height: 70px;
+    height: 80px;
     width: 25%;
     background-color: #F6E8FF;
     z-index: 1;
@@ -262,7 +262,7 @@ h6{
     position:absolute;
     top:20px;
     left:0;
-    height: 70px;
+    height: 130px;
     width: 25%;
     background-color: #F6E8FF;
     z-index: 1;
@@ -271,7 +271,7 @@ h6{
 
 .categories
 {
-    margin-top: 320px;
+    margin-top: 370px;
     margin-left: 15px;
     position:absolute;
     top:20px;
@@ -285,7 +285,7 @@ h6{
 }
 .categories2
 {
-    margin-top: 360px;
+    margin-top: 410px;
     margin-left: 190px;
     position:absolute;
     top:20px;
@@ -320,10 +320,10 @@ h6{
 .post
 {
     height: 30px;
-    width: 8%;
-    background-color: rgb(60, 209, 23);
-    margin-top: 400px;
-    margin-right: 12px;
+    /* width: 5%; */
+    background-color: rgb(201, 109, 178);
+    margin-top: 600px;
+    margin-right: 80px;
     position:absolute;
     top:0;
     right:0;
