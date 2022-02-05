@@ -51,6 +51,18 @@ if(isset($_POST["submit"])){
           location.reload();
           break;
         }
+
+      //call marker function
+      addMarker({lat: 5.6436,lng:100.4894});
+      addMarker({lat: 5.8530,lng:100.4602});
+
+      //add marker function
+      function addMarker(coords){
+        var marker = new google.maps.Marker( {
+        position: coords,
+        map: map,
+      });
+      }
       }
     </script>
     <br>
