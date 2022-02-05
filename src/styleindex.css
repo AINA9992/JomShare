@@ -281,7 +281,24 @@ h6{
     background-color: #F6E8FF;
     z-index: 1;
     border-radius: 15px;
+    float: left;
 }
+.categories2
+{
+    margin-top: 360px;
+    margin-left: 190px;
+    position:absolute;
+    top:20px;
+    left:0;
+    height: 200px;
+    width: 10%;
+    background-color: #F6E8FF;
+    z-index: 1;
+    border-radius: 15px;
+    float: left;
+}
+
+
 
 /* aina jinnie */
 
